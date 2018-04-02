@@ -5,9 +5,9 @@ from email.mime.base import MIMEBase
 from email import encoders
 import sys
 from pandas import *
-email_user = 'jjjjooonno@gmail.com'
-email_password = 'ehdtn0*0*'
-email_send = 'jjjjooonno@gmail.com'
+email_user = '이메일'
+email_password = '비밀번호'
+email_send = '이메일'
 
 subject = 'test1'
 

@@ -2,7 +2,7 @@ from selenium import webdriver
 import pymysql
 from bs4 import BeautifulSoup
 
-conn = pymysql.connect(host='localhost', user='root', password='ehdtn0909',
+conn = pymysql.connect(host='localhost', user='root', password='비밀번호',
                        db='fc', charset='utf8')
 curs = conn.cursor()
 dr = webdriver.Chrome('/Users/joono/chromedriver')

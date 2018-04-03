@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62b45d24-100b-4389-a458-c7fad3d51349" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/코드/test_case/naver_webtoon.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/강의자료/시범강의.key" afterPath="$PROJECT_DIR$/강의자료/시범강의.key" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/코드/test_case/exam1.py" afterPath="$PROJECT_DIR$/코드/test_case/exam1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/코드/test_case/naver_webtoon.py" afterPath="$PROJECT_DIR$/코드/test_case/naver_webtoon.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +17,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="chamgwan.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="chamgwan.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/코드/chamgwan.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="48" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="google_image.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/코드/test_case/google_image.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="naver_webtoon.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/코드/test_case/naver_webtoon.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="naver_webtoon.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/코드/test_case/naver_webtoon.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exam1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/코드/test_case/exam1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -55,6 +103,10 @@
         <option value="$PROJECT_DIR$/test_case/canvas image.py" />
         <option value="$PROJECT_DIR$/chamgwan.py" />
         <option value="$PROJECT_DIR$/Example.ipynb" />
+        <option value="$PROJECT_DIR$/코드/test_case/naver_webtoon.py" />
+        <option value="$PROJECT_DIR$/코드/chamgwan.py" />
+        <option value="$PROJECT_DIR$/코드/test_case/naver_webtoon.ipynb" />
+        <option value="$PROJECT_DIR$/코드/test_case/exam1.py" />
       </list>
     </option>
   </component>
@@ -92,6 +144,12 @@
               <item name="fast_campus" type="462c0819:PsiDirectoryNode" />
               <item name="코드" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="fast_campus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fast_campus" type="462c0819:PsiDirectoryNode" />
+              <item name="코드" type="462c0819:PsiDirectoryNode" />
+              <item name="test_case" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -114,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.canvas image">
+  <component name="RunManager" selected="Python.exam1">
     <configuration name="canvas image" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,6 +207,23 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="exam1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/코드/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="fast_campus" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/코드/test_case/exam1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="fast_campus" type="Python.Ipnb" factoryName="Jupyter Notebook">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -164,23 +239,6 @@
       <option name="additionalOptions" value="" />
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
-    </configuration>
-    <configuration name="mongo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="fast_campus" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mongo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <configuration name="naver_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,19 +276,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Jupyter Notebook.fast_campus" />
-      <item index="1" class="java.lang.String" itemvalue="Python.mongo" />
-      <item index="2" class="java.lang.String" itemvalue="Python.chamgwan" />
-      <item index="3" class="java.lang.String" itemvalue="Python.naver_api" />
-      <item index="4" class="java.lang.String" itemvalue="Python.send_email" />
-      <item index="5" class="java.lang.String" itemvalue="Python.canvas image" />
+      <item index="1" class="java.lang.String" itemvalue="Python.chamgwan" />
+      <item index="2" class="java.lang.String" itemvalue="Python.naver_api" />
+      <item index="3" class="java.lang.String" itemvalue="Python.send_email" />
+      <item index="4" class="java.lang.String" itemvalue="Python.canvas image" />
+      <item index="5" class="java.lang.String" itemvalue="Python.exam1" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.canvas image" />
-        <item index="1" class="java.lang.String" itemvalue="Python.send_email" />
-        <item index="2" class="java.lang.String" itemvalue="Python.naver_api" />
-        <item index="3" class="java.lang.String" itemvalue="Python.chamgwan" />
-        <item index="4" class="java.lang.String" itemvalue="Python.mongo" />
+        <item index="0" class="java.lang.String" itemvalue="Python.exam1" />
+        <item index="1" class="java.lang.String" itemvalue="Python.canvas image" />
+        <item index="2" class="java.lang.String" itemvalue="Python.send_email" />
+        <item index="3" class="java.lang.String" itemvalue="Python.naver_api" />
+        <item index="4" class="java.lang.String" itemvalue="Python.chamgwan" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +312,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19236112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31176472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31176472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -341,10 +399,47 @@
     <entry file="file://$PROJECT_DIR$/test_case/canvas image.py" />
     <entry file="file://$PROJECT_DIR$/chamgwan.py" />
     <entry file="file://$PROJECT_DIR$/Example.ipynb" />
-    <entry file="file://$PROJECT_DIR$/코드/chamgwan.py">
+    <entry file="file://$PROJECT_DIR$/코드/test_case/google_image.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/코드/test_case/naver_webtoon.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/코드/test_case/naver_webtoon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/코드/chamgwan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="48" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/코드/test_case/exam1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>

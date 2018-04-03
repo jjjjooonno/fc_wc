@@ -1,7 +1,11 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
+import pymysql
 keyword = '패스트캠퍼스'
-url ='https://www.google.co.kr/search?q='+keyword+'&oq='+keyword+'&aqs=chrome..69i57j69i61l3j69i59l2.2048j0j1&sourceid=chrome&ie=UTF-8'
+url ='https://www.google.co.kr/search?q='+keyword
+
+conn = pymysql.connect(host='localhost', user='root', password='ehdtn0909',
+                       db='fc', charset='utf8')
 
 dr = webdriver.Chrome('/Users/joono/chromedriver')
 
@@ -19,3 +23,14 @@ for word in rel_words:
     rel_words_text.append(word.text)
 
 print(rel_words_text)
+
+
+curs = conn.cursor()
+curs.execute("set names utf8")
+
+for word in rel_words_text:
+    sql = "INSERT INTO relword VALUES (%s);"
+    curs.execute(sql,word)
+conn.commit()
+conn.close()
+dr.quit()

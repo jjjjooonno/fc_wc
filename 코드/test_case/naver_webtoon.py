@@ -7,7 +7,6 @@ days = ['mon','tue','wed','thu','fri','sat','sun']
 day = days[0]
 
 url = 'http://comic.naver.com/webtoon/weekdayList.nhn?week='+day
-# = http://comic.naver.com/webtoon/weekdayList.nhn?week=mon
 
 response = requests.get(url)
 

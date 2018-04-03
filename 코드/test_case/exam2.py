@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 import pymysql
 keyword = '패스트캠퍼스'
-url ='https://www.google.co.kr/search?q='+keyword
+url ='https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query='+keyword
 
 # 1. 셀레늄 웹드라이버 사용
 
@@ -47,13 +47,13 @@ dr_html = dr.text
 
 soup = BeautifulSoup(dr_html,'html.parser')
 
-rel_words = soup.find_all('p', attrs = {'class' : 'aw5cc'})
-
+rel_words_parent = soup.find('ul', attrs = {'class' : '_related_keyword_ul'})
+rel_words_chil = rel_words_parent.findChildren()
 rel_words_text = []
 
 print(dr_html)
 
-for word in rel_words:
+for word in rel_words_chil:
     rel_words_text.append(word.text)
 
 print(rel_words_text)

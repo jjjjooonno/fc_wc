@@ -4,7 +4,7 @@ import pymysql
 keyword = '패스트캠퍼스'
 url ='https://www.google.co.kr/search?q='+keyword
 
-conn = pymysql.connect(host='localhost', user='root', password='ehdtn0909',
+conn = pymysql.connect(host='localhost', user='root', password='비밀번호',
                        db='fc', charset='utf8')
 
 dr = webdriver.Chrome('/Users/joono/chromedriver')

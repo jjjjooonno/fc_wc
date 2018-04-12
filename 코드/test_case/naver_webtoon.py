@@ -6,7 +6,7 @@ import re
 days = ['mon','tue','wed','thu','fri','sat','sun']
 day = days[0]
 
-url = 'http://comic.naver.com/webtoon/weekdayList.nhn?week='+day
+url = 'http://comic.naver.com/webtoon/weekdayList.nhn?week=wed'+day+'&view=list&order=ViewCount'
 
 response = requests.get(url)
 

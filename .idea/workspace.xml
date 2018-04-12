@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62b45d24-100b-4389-a458-c7fad3d51349" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/강의자료/시범강의.key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/강의자료/시범강의.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/코드/chamgwan.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/코드/mongo.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/코드/naver_api.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/코드/send_email.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/강의자료/Week1/1주차강의안.key" afterPath="$PROJECT_DIR$/강의자료/Week1/1주차강의안.key" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/코드/test_case/naver_webtoon.py" afterPath="$PROJECT_DIR$/코드/test_case/naver_webtoon.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />

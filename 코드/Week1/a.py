@@ -3,7 +3,7 @@ variable_int = 3
 
 print(variable_int)
 variable_float = 3.6
-pritn(variable_float)
+print(variable_float)
 
 variable_string = 'hello'
 print(variable_string)

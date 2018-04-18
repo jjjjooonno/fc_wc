@@ -1,13 +1,13 @@
 list_ = ['a',3,5]
-list_[0]
+print(list_[0])
 list_.append(7)
-list_[3]
+print(list_[3])
 
 
 dic = {'a' : 1, 'b' : 2}
-dic['a']
+print(dic['a'])
 dic.update({'c' : 3})
-dic['c']
+print(dic['c'])
 
 
 for item in list_:

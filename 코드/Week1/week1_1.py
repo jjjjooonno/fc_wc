@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import re
+from pandas import unique
 
 days = ['mon','tue','wed','thu','fri','sat','sun']
 day = days[0]
@@ -21,4 +22,4 @@ while '전체보기' in title_text: title_text.remove('전체보기')
 while '' in title_text: title_text.remove('')
 while 'NEW' in title_text: title_text.remove('NEW')
 
-print(title_text)
+print(unique(title_text))

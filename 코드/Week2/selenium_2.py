@@ -7,10 +7,13 @@ chromedriver_address = '/Users/joono'
 driver = webdriver.Chrome(chromedriver_address + '/chromedriver')
 
 keyword = '패스트캠퍼스'
-
+# 이번에는 키워드 검색을 할 수 있는 url이기 때문에 키워드 parameter에 들어갈 키워드를 미리 변수로 지정합니다.
 web_url = 'https://search.naver.com/search.naver?query='+keyword+'&where=news&ie=utf8&sm=nws_hty'
-
+# 네이버 뉴스 검색에 키워드를 넣은 주소를 web_url에 저장합니다.
 driver.get(web_url)
+# 키워드를 넣은 주소에 접근합니다.
 driver_source = driver.page_source
+# 검색 결과의 HTML문서를 가져옵니다.
 
 print(driver_source)
+# HTML 문서를 확인합니다.

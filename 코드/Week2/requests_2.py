@@ -15,6 +15,7 @@ r = requests.post(url, data = body.encode(encoding='utf-8'), headers = header)
 rcod = r.status_code
 if(rcod==200):
     dc = r.json()
+    print(dc)
     for i in dc['results'][0]['data']:
         print(i['period'], ' : ', i['ratio'])
 else:
